@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convocatorias ATENEA — Directorio de Repositorios</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { inter: ['Inter','sans-serif'] },
+                    colors: {
+                        indigo: { '700':'#4338CA', '800':'#3730A3', '900':'#312E81' }
+                    }
+                }
+            }
+        };
+    </script>
+
+    <style>
+        body{ scroll-behavior:smooth; font-family:'Inter',sans-serif }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+<header class="bg-indigo-800 text-white p-6 shadow-lg rounded-b-lg">
+    <div class="container mx-auto max-w-5xl">
+        <h1 class="text-3xl font-bold">Documentación de Convocatorias — ATENEA</h1>
+        <p class="text-indigo-200 mt-1 text-lg">Directorio de algoritmos de selección y manuales técnicos</p>
+    </div>
+</header>
+
+<div class="container mx-auto max-w-5xl mt-8">
+    <main class="w-full p-6 bg-white rounded-lg shadow-md space-y-10">
+
+        <section id="descripcion">
+            <h2 class="text-2xl font-bold text-indigo-900 mb-4 border-b border-indigo-100 pb-2">Sobre este portal</h2>
+            <p class="text-gray-700 leading-relaxed text-lg">
+                Aquí encontrarás la lista oficial de repositorios de código y la explicación técnica de los algoritmos de selección aplicados en las distintas convocatorias de la <strong>Agencia Distrital para la Educación Superior, la Ciencia y la Tecnología – ATENEA</strong>. 
+                <br><br>
+                Cada uno de estos enlaces documenta de manera transparente y detallada el procesamiento de datos, las reglas de negocio y los criterios de asignación paso a paso. Haz clic en cualquiera de las siguientes tarjetas para acceder a la documentación interactiva de la convocatoria de tu interés.
+            </p>
+        </section>
+
+        <section id="convocatorias">
+            <h2 class="text-2xl font-bold text-indigo-900 mb-6 border-b border-indigo-100 pb-2">Directorio de Convocatorias</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <a href="https://atenea-saigc.github.io/Selecci-n-JE3/" target="_blank" rel="noopener" class="group block p-6 bg-gray-50 border border-gray-200 rounded-xl hover:bg-indigo-50 hover:border-indigo-400 hover:shadow-md transition-all duration-200">
+                    <div class="flex items-center justify-between mb-3">
+                        <h3 class="text-xl font-bold text-indigo-800 group-hover:text-indigo-600">Jóvenes a la E (JE3)</h3>
+                        <svg class="w-6 h-6 text-indigo-400 group-hover:text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </div>
+                    <p class="text-sm text-gray-600">Explicación del proceso de elección y validación de beneficiarios para la Tercera Convocatoria.</p>
+                </a>
+
+                <a href="https://atenea-saigc.github.io/Selecci-n-JE4/" target="_blank" rel="noopener" class="group block p-6 bg-gray-50 border border-gray-200 rounded-xl hover:bg-indigo-50 hover:border-indigo-400 hover:shadow-md transition-all duration-200">
+                    <div class="flex items-center justify-between mb-3">
+                        <h3 class="text-xl font-bold text-indigo-800 group-hover:text-indigo-600">Jóvenes a la E (JE4)</h3>
+                        <svg class="w-6 h-6 text-indigo-400 group-hover:text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </div>
+                    <p class="text-sm text-gray-600">Explicación del proceso de elección y validación de beneficiarios para la Cuarta Convocatoria.</p>
+                </a>
+
+                <a href="https://atenea-saigc.github.io/Selecci-n-Fest1/" target="_blank" rel="noopener" class="group block p-6 bg-gray-50 border border-gray-200 rounded-xl hover:bg-indigo-50 hover:border-indigo-400 hover:shadow-md transition-all duration-200">
+                    <div class="flex items-center justify-between mb-3">
+                        <h3 class="text-xl font-bold text-indigo-800 group-hover:text-indigo-600">Festivales (Fest1)</h3>
+                        <svg class="w-6 h-6 text-indigo-400 group-hover:text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </div>
+                    <p class="text-sm text-gray-600">Documentación detallada sobre las reglas de habilitación, puntuación y cruces de datos para Fest1.</p>
+                </a>
+
+                <a href="https://atenea-saigc.github.io/Selecci-n-EFT/" target="_blank" rel="noopener" class="group block p-6 bg-gray-50 border border-gray-200 rounded-xl hover:bg-indigo-50 hover:border-indigo-400 hover:shadow-md transition-all duration-200">
+                    <div class="flex items-center justify-between mb-3">
+                        <h3 class="text-xl font-bold text-indigo-800 group-hover:text-indigo-600">Formación para el Trabajo (EFT)</h3>
+                        <svg class="w-6 h-6 text-indigo-400 group-hover:text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </div>
+                    <p class="text-sm text-gray-600">Algoritmo de selección, tratamiento de datos y estructuración de la Estrategia de Formación para el Trabajo.</p>
+                </a>
+            </div>
+        </section>
+
+        <section id="licencia" class="mt-8 pt-8 border-t border-gray-100">
+            <h2 class="text-2xl font-bold text-indigo-900 mb-4 border-b border-indigo-100 pb-2">Licencia y contacto</h2>
+            <div class="text-gray-700 text-sm space-y-4">
+                <p>
+                    El código y la construcción de indicadores fueron desarrollados por la Agencia Distrital para la Educación Superior, la Ciencia y la Tecnología – ATENEA. 
+                    Este material se distribuye bajo la licencia Creative Commons Attribution 4.0 International (CC BY 4.0), en concordancia con la 
+                    <a class="text-indigo-700 underline font-medium hover:text-indigo-900" href="https://agenciaatenea.gov.co/sites/default/files/2024-10/po2_de_politica_de_derechos_de_autor._v1_0.pdf" target="_blank" rel="noopener">Política de Derechos de Autor y Uso de Datos de ATENEA</a>.
+                </p>
+                <p>
+                    Al reproducir o adaptar el material, se debe citar a la Agencia Distrital para la Educación Superior, la Ciencia y la Tecnología – ATENEA como fuente.
+                </p>
+                <p>
+                    Para consultas oficiales o más información, puedes remitirte a la sección de atención al ciudadano de la 
+                    <a class="text-indigo-700 underline font-medium hover:text-indigo-900" href="https://www.agenciaatenea.gov.co/atencion-y-servicios-la-ciudadania" target="_blank" rel="noopener">Agencia Atenea</a>.
+                </p>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<footer class="text-center p-6 mt-12 bg-gray-100 text-gray-500 text-sm">
+    Documentación técnica y operativa – Directorio Central ATENEA
+</footer>
+
+</body>
+</html>
